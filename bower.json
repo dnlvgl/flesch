@@ -1,7 +1,7 @@
 {
-  "name": "flesch",
+  "name": "fleschDe",
   "main": "index.js",
-  "description": "Formula to detect the ease of reading a text according to Flesch Reading Ease (1975)",
+  "description": "Detect the ease of reading a text according to the German variation of the Flesch Reading Ease Formular",
   "license": "MIT",
   "keywords": [
     "flesch",
@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wooorm/flesch.git"
+    "url": "https://github.com/dnlvgl/fleschDe.git"
   },
   "authors": [
-    "Titus Wormer <tituswormer@gmail.com>"
+    "Daniel Vogel <hello@dnlvgl.com>"
   ],
   "ignore": [
     ".*",

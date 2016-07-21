@@ -1,7 +1,7 @@
 {
-  "name": "flesch",
-  "version": "0.1.0",
-  "description": "Formula to detect the ease of reading a text according to Flesch Reading Ease (1975)",
+  "name": "fleschDe",
+  "version": "0.0.1",
+  "description": "Detect the ease of reading a text according to the German variation of the Flesch Reading Ease Formular",
   "license": "MIT",
   "keywords": [
     "flesch",
@@ -10,9 +10,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wooorm/flesch.git"
+    "url": "https://github.com/dnlvgl/fleschDe.git"
   },
-  "author": "Titus Wormer <tituswormer@gmail.com>",
+  "author": "Daniel Vogel <hello@dnlvgl.com>",
   "devDependencies": {
     "eslint": "^0.9.0",
     "istanbul": "^0.3.0",
@@ -21,7 +21,6 @@
   },
   "scripts": {
     "test": "node_modules/.bin/_mocha --reporter spec --check-leaks -u exports test.js",
-    "test-travis": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly -- --reporter spec --check-leaks -u exports test.js",
     "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -- test.js",
     "lint-api": "node_modules/.bin/eslint index.js",
     "lint-test": "node_modules/.bin/eslint test.js --env mocha",

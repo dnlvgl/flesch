@@ -39,47 +39,32 @@ describe('flesch()', function () {
         assert(result !== result);
 
         /**
-         * The cat sat on the mat
+         * Einfacher Satz.
          *
          * Sentences: 1
-         * Words: 6
-         * Syllables: 6
+         * Words: 2
+         * Syllables: 4
          */
 
         roundAssert(flesch({
             'sentence': 1,
-            'word': 6,
-            'syllable': 6
-        }), 116.145);
+            'word': 2,
+            'syllable': 4
+        }), 61);
 
         /**
-         * This sentence, taken as a reading passage unto itself, is being
-         * used to prove a point.
-         *
-         * Sentences: 1
-         * Words: 16
-         * Syllables: 22
-         */
-
-        roundAssert(flesch({
-            'sentence': 1,
-            'word': 16,
-            'syllable': 22
-        }), 74.27);
-
-        /**
-         * The Australian platypus is seemingly a hybrid of a mammal and
-         * reptilian creature.
+         * Der Lesbarkeitsindex Flesch-Reading-Ease, auch Flesch-Grad 
+         * genannt, ist ein numerischer Wert für die Lesbarkeit.
          *
          * Sentences: 1
          * Words: 13
-         * Syllables: 26
+         * Syllables: 30
          */
 
         roundAssert(flesch({
             'sentence': 1,
             'word': 13,
-            'syllable': 26
-        }), 24.44);
+            'syllable': 30
+        }), 32);
     });
 });
