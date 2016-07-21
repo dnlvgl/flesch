@@ -2,6 +2,13 @@
 
 Detect the ease of reading a text according to the German variation of the [Flesch Reading Ease Formular](https://de.wikipedia.org/wiki/Lesbarkeitsindex#Flesch-Reading-Ease).
 
+## Installation
+
+npm:
+```sh
+$ npm install flesch
+```
+
 ## Usage
 
 ```js
