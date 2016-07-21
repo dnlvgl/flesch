@@ -4,13 +4,11 @@
  * Constants.
  */
 
-var SENTENCE_WEIGHT,
-    WORD_WEIGHT,
+var WORD_WEIGHT,
     BASE;
 
-SENTENCE_WEIGHT = 1.015;
-WORD_WEIGHT = 84.6;
-BASE = 206.835;
+WORD_WEIGHT = 58.5;
+BASE = 180;
 
 /**
  * Get the grade level of a given value according to the Flesch Reading Ease
@@ -26,18 +24,18 @@ BASE = 206.835;
  * @return {number}
  */
 
-function flesch(counts) {
+function fleschDe(counts) {
     if (!counts || !counts.sentence || !counts.word || !counts.syllable) {
         return NaN;
     }
 
     return BASE -
-        SENTENCE_WEIGHT * (counts.word / counts.sentence) -
+        (counts.word / counts.sentence) -
         WORD_WEIGHT * (counts.syllable / counts.word);
 }
 
 /**
- * Export `flesch`.
+ * Export `fleschDe`.
  */
 
-module.exports = flesch;
+module.exports = fleschDe;
