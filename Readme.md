@@ -6,7 +6,7 @@ Detect the ease of reading a text according to the German variation of the [Fles
 
 npm:
 ```sh
-$ npm install flesch
+$ npm install fleschDe
 ```
 
 ## Usage
