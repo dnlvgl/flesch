@@ -1,6 +1,6 @@
 {
   "name": "fleschDe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Detect the ease of reading a text according to the German variation of the Flesch Reading Ease Formular",
   "license": "MIT",
   "keywords": [
