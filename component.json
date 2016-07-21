@@ -1,14 +1,14 @@
 {
-  "name": "flesch",
-  "version": "0.1.0",
-  "description": "Formula to detect the ease of reading a text according to Flesch Reading Ease (1975)",
+  "name": "fleschDe",
+  "version": "0.0.1",
+  "description": "Detect the ease of reading a text according to the German variation of the Flesch Reading Ease Formular",
   "license": "MIT",
   "keywords": [
     "flesch",
     "readability",
     "formula"
   ],
-  "repository": "wooorm/flesch",
+  "repository": "dnlvgl/fleschDe",
   "scripts": [
     "index.js"
   ]
